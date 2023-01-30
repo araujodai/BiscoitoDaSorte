@@ -28,7 +28,7 @@ O projeto se trata de uma aplicação onde obtemos uma mensagem ao clicar no bis
 
 
 
-![BiscoitoDaSorte](https://user-images.githubusercontent.com/101216880/197892300-0e8e077a-a073-4e44-beb1-8a04cfc76cef.gif)
+![BiscoitoDaSorte](./assets/BiscoitoDaSorte1.gif)
 
 Esse projeto se trata de um exercício proposto pela Rocketseat, veja abaixo o que foi abordado:
 
