@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-body: linear-gradient(45deg, #190361, #BB00FF);
+  --bg-button: hsl(35, 100%, 50%);
+  --bg-message: hsl(198, 32%, 92%);
+
+  --font-color: hsl(238, 27%, 28%);
+  --light: hsl(0, 0%, 100%);
+
+   
+  --font-title: 'Montserrat', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-message: 'Dancing Script';
+}
+
+img {
+  max-width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background: var(--bg-body);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+}
+
+.card {
+  padding: 4.8rem 6.4rem 6.4rem;
+  max-width: 42.8rem;
+  text-align: center;
+  background: var(--light);
+  border-radius: 5px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  color: var(--font-color);
+}
+
+h1 {
+  font-family: var(--font-title);
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+
+p {
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+p.lucky-message {
+  font-family: var(--font-message);
+  font-size: 2.4rem;
+  background: var(--bg-message);
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+  padding: 1rem;
+  animation: downtop 2000ms 400ms backwards;
+}
+
+#cookie:hover {
+  cursor: pointer;
+}
+
+#cookie.shake {
+  animation: shake 120ms 150ms infinite ;
+}
+
+button {
+  max-width: 17.4rem;
+  margin: 5.934rem auto 0;
+  padding: 1.6rem;
+  background: var(--bg-button);
+  border-radius: 4px;
+  border: none;
+  color: var(--light);
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 250ms linear;
+  transform: scale(1.1);
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 1;
+    transform: translateY(11rem) scale(0.1);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: translateY(.1rem) rotate(1deg);
+  }
+  100% {
+    transform: translateY(-.1rem) rotate(-1deg);
+    
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
