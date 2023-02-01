@@ -26,7 +26,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto se trata de uma aplicação onde obtemos uma mensagem ao clicar no biscoito da sorte, essa mensagem é gerada de forma aleatória, sendo possível a partir de um click ou enter. Após obter uma mensagem podemos repetir a ação sempre que desejarmos.
 
-
+<div align="center">
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/101216880/216160638-8146cd77-41d5-4c6e-ab15-99b0a8f1f62c.png">
+&nbsp;&nbsp;&nbsp;
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/101216880/216160812-ccc0fca3-1270-4077-bab1-2dec4ef11062.png">
+</div>
 
 Esse projeto se trata de um exercício proposto pela Rocketseat, veja abaixo o que foi abordado:
 
