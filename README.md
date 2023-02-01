@@ -32,6 +32,8 @@ O projeto se trata de uma aplicação onde obtemos uma mensagem ao clicar no bis
 <img width="457" alt="image" src="https://user-images.githubusercontent.com/101216880/216160812-ccc0fca3-1270-4077-bab1-2dec4ef11062.png">
 </div>
 
+
+
 Esse projeto se trata de um exercício proposto pela Rocketseat, veja abaixo o que foi abordado:
 
 - Estrutura de dados HTML
