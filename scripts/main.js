@@ -12,6 +12,17 @@ function clickAwait() {
   }, 3000)
 }
 
+document.addEventListener('keypress', e => {
+  if (openedCookie.classList.contains("hide") && e.key === 'Enter') {
+    cookie.click()
+  } 
+
+  if (cookie.classList.contains("hide") && e.key === 'Enter') {
+    buttonResetCookie.click()
+  }
+
+})
+
 cookie.addEventListener('click', () => {
   cookie.classList.add('shake')
   clickAwait()
