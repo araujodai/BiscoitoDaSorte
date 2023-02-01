@@ -12,7 +12,7 @@ function clickAwait() {
   }, 3000)
 }
 
-document.addEventListener('keypress', e => {
+window.addEventListener('keypress', e => {
   if (openedCookie.classList.contains("hide") && e.key === 'Enter') {
     cookie.click()
   } 
