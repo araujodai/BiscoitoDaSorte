@@ -54,8 +54,11 @@ Veja abaixo o que foi abordado na construção desse projeto:
 
 ## Publicação
 
-Para rodar o projeto com todas as funcionalidades basta clicar no link abaixo ou escanear o QR Code para visualizar no celular.
+Para rodar o projeto com todas as funcionalidades clique <a href="https://araujodai.github.io/BiscoitoDaSorte/">AQUI</a> ou escaneie o QR Code para visualizar no celular.
 
-<a href="https://araujodai.github.io/Biscoito_da_sorte/">Visualizar publicação</a>
+
+![frame (4)](https://user-images.githubusercontent.com/101216880/216165463-79642a91-5aa5-4cab-8c9a-fde0f493093a.png)
+
+
 
 Projeto criado pela [Rocketseat](https://github.com/Rocketseat) e desenvolvido por [Daiane&nbsp;Araújo](https://github.com/araujodai).
